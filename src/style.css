@@ -1,0 +1,113 @@
+body {
+  font-family: sans-serif;
+  background-color: #28292f;
+  color: #21a4cf;
+}
+h1{
+  color:azure;
+}
+
+footer{
+  color:azure;
+}
+ h2, h3, h4, h5, h6 {
+  color: #242F9B;
+}
+button:active{
+  background-color:rgb(45, 124, 228);
+}
+.center{
+  top:50%;
+}
+button, input {
+  background-color: #289fde;
+  border: none;
+  padding: 20px;
+  font-size: 15px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #242F9B;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #242F9B;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #242F9B;
+}
+
+button {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #242F9B;
+}
+
+input {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 30%;
+}
+
+.text-center {
+  margin: auto;
+  text-align: center;
+}
+
+.domain-card {
+  background-color: #9BA3EB;
+  width: 40%;
+  margin: auto;
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 5px;
+  color: rgb(24, 94, 191);
+  font-weight: 700;
+  text-align: left;
+}
+
+.domain-card h2 {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.onsale, .nosale {
+  border-radius: 5px;
+  width: 90px;
+  padding: 20px;
+  background-color: #242F9B;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  background-color: #242F9B;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #fff;
+  width: 130px;
+  padding: 0;
+}
+
+.contactlink {
+  width: 90px;
+  padding: 20px;
+}
+
+a {
+  color: rgb(16, 161, 240);
+  text-decoration: none;
+}
