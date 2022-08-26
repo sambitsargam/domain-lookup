@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function App() {
   const API_URL = 'https://unstoppabledomains.g.alchemy.com/domains/';
-  const API_KEY = 'YQGFnIoOyWdUiBLorP1zrK4c4kHHH0fA';
+  const API_KEY = 'VGz9LbuTlj5jyd2PQFh7AX2jva_EsKs0';
 
   const [stats, setStats] = useState(null);
 
